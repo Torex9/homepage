@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import News from "./components/news";
-import ImageCard from "./components/imagecard";
+import News from "./_components/news";
+import ImageCard from "./_components/imagecard";
 
 export default function Home() {
   return (

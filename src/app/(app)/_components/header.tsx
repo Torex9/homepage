@@ -49,8 +49,11 @@ const Header = ({
           <img src={closeMenuIconUrl} alt="Icon menu close" />
         </button>
         <ul className=" md:flex md:absolute md:gap-5 md:right-0 md:top-0 lg:gap-10">
-          {links.map((link) => (
-            <li className="list-none mb-[25px] font-sans font-normal text-xl">
+          {links.map((link, i) => (
+            <li
+              key={i}
+              className="list-none mb-[25px] font-sans font-normal text-xl"
+            >
               <a
                 className="no-underline text-slate-500 hover:text-red-400"
                 href={link.url}
