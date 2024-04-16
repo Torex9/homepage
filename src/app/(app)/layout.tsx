@@ -19,8 +19,8 @@ export default function RootLayout({
           menuIconUrl="/icon-menu.svg"
           closeMenuIconUrl="/icon-menu-close.svg"
           links={[
-            { text: "Home", url: "" },
-            { text: "New", url: "" },
+            { text: "Home", url: "/" },
+            { text: "About", url: "/about" },
             { text: "Popular", url: "" },
             { text: "Trending", url: "" },
             { text: "Categories", url: "" },
